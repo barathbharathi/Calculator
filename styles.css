@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: grey;
+}
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f8f9fa;
+}
+.calculator input {
+    width: 100%;
+    text-align: center;
+}
+.calculator button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    color: #007bff;
+    background-color: transparent;
+    border: 1px solid #007bff;
+}
+.btn-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
